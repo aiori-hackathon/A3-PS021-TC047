@@ -1,4 +1,4 @@
-.env,
-target,
-__pycache__,
+.env
+target
+__pycache__
 .venv/
