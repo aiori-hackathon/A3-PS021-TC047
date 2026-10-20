@@ -1,5 +1,4 @@
 .env,
 target,
 __pycache__,
-.venv/,
-Proposed-structure-hackathon.pdf
+.venv/
