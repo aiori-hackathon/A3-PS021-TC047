@@ -1,0 +1,9 @@
+{
+  "scenario": "A restarted mid-task",
+  "starting_state": "task IN_PROGRESS",
+  "injected_failure": "A process stopped during send",
+  "retry_behaviour": "startup recovery marks INTERRUPTED; poller resends stored task",
+  "final_state": "COMPLETED",
+  "identity_preserved": true,
+  "duplicate_prevented": true
+}

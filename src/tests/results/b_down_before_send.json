@@ -1,0 +1,9 @@
+{
+  "scenario": "B down before A sends",
+  "starting_state": "task created while B unavailable",
+  "injected_failure": "B stopped before send",
+  "retry_behaviour": "poller retries after B starts",
+  "final_state": "COMPLETED",
+  "identity_preserved": true,
+  "duplicate_prevented": true
+}

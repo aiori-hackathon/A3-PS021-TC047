@@ -1,0 +1,9 @@
+{
+  "scenario": "same request_id with different payload",
+  "starting_state": "existing request completed",
+  "injected_failure": "same request_id submitted with changed payload",
+  "retry_behaviour": "Adapter B rejects and A never retries",
+  "final_state": "FAILED",
+  "identity_preserved": true,
+  "duplicate_prevented": true
+}
