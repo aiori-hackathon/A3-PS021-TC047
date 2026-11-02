@@ -1,0 +1,9 @@
+{
+  "scenario": "B killed while processing",
+  "starting_state": "task sent to B",
+  "injected_failure": "B crashes during processing",
+  "retry_behaviour": "A resends stored IDs and payload after B restart",
+  "final_state": "COMPLETED",
+  "identity_preserved": true,
+  "duplicate_prevented": true
+}

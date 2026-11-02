@@ -3,8 +3,44 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c37f64fa-7c15-412b-9e10-511f2f5c05ff" name="Changes" comment="" />
+    <list default="true" id="c37f64fa-7c15-412b-9e10-511f2f5c05ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proposed-structure-hackathon.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter-a-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/adapter-a-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter-a-spring/src/main/java/com/adapteraspring/entity/DialogEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter-a-spring/src/main/java/com/adapteraspring/entity/DialogEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter-a-spring/src/main/java/com/adapteraspring/entity/Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter-a-spring/src/main/java/com/adapteraspring/entity/Tasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter-a-spring/src/main/java/com/adapteraspring/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter-a-spring/src/main/java/com/adapteraspring/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter-a-spring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/adapter-a-spring/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter-a-spring/src/test/java/com/adapteraspring/AdapterASpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter-a-spring/src/test/java/com/adapteraspring/AdapterASpringApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/AdapterASpringApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/controller/TaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/dto/CreateTaskRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/dto/TaskResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/entity/DialogEvents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/entity/Tasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/enumerates/StateEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/planner/PassthroughPlanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/planner/Planner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/repository/DialogEventRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/repository/TaskRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adapteraspring/service/TaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create_adapter_a_tables.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adapteraspring/AdapterASpringApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +48,7 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
+      <entry key="_E:/A_Hackathon/A3-PS021-TC047/src" value="3LT1IXR1OraEMzuQ0SLTUemMjUd" />
       <entry key="_E:/A_Hackathon/Crew_404/adapter-a-spring" value="3Kx8163tBhqgpw6xC104e70e4K6" />
     </persistenceIdMap>
   </component>
@@ -25,7 +62,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -42,35 +79,52 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3Kx8163tBhqgpw6xC104e70e4K6" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdapterASpringApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AdapterASpringApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/a-skeleton&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdapterASpringApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.AdapterASpringApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "adapter-a-updated",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/A_Hackathon/A3-PS021-TC047/src",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="AdapterASpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
@@ -86,6 +140,13 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.27258.136" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c37f64fa-7c15-412b-9e10-511f2f5c05ff" name="Changes" comment="" />
@@ -100,6 +161,11 @@
       <workItem from="1792933922022" duration="5422000" />
       <workItem from="1792939478370" duration="1196000" />
       <workItem from="1792941382670" duration="2600000" />
+      <workItem from="1793461762586" duration="52000" />
+      <workItem from="1793463165664" duration="4502000" />
+      <workItem from="1793468408236" duration="737000" />
+      <workItem from="1793471948410" duration="759000" />
+      <workItem from="1793587120445" duration="1753000" />
     </task>
     <servers />
   </component>

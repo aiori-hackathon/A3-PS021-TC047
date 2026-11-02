@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "parameters": {
+      "quantity": 3,
+      "item": "widget"
+    },
+    "action": "record_order"
+  },
+  "canonical": "{\"action\":\"record_order\",\"parameters\":{\"item\":\"widget\",\"quantity\":3}}",
+  "sha256": "8a0b2b1f616efe8d5e14590a6c154f7dd7c9962fad8daf9ae80bb45dbb9c055e"
+}

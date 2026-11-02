@@ -1,0 +1,9 @@
+{
+  "scenario": "planner not invoked on retry",
+  "starting_state": "task already persisted",
+  "injected_failure": "transient send failure",
+  "retry_behaviour": "dispatcher uses stored payload without planner",
+  "final_state": "COMPLETED",
+  "identity_preserved": true,
+  "duplicate_prevented": true
+}

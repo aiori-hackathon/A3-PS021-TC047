@@ -1,0 +1,36 @@
+{
+    "type": "object",
+    "required": [
+        "action",
+        "parameters"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "action": {
+            "type": "string",
+            "enum":["record_order"]
+
+            
+        },
+        "parameters": {
+            "type": "object",
+            "required": [
+                "item",
+                "quantity"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "item": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 64
+                },
+                "quantity": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 1000
+                }
+            }
+        }
+    }
+}
