@@ -1,0 +1,16 @@
+[project]
+name = "adapter-b-fastapi"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.161.1",
+    "psycopg[binary,pool]>=3.3.6",
+    "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.16.0",
+    "pytest>=9.2.0",
+]

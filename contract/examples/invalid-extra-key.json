@@ -1,0 +1,8 @@
+{
+  "action": "record_order",
+  "parameters": {
+    "item": "widget",
+    "quantity": 3,
+    "extra": true
+  }
+}

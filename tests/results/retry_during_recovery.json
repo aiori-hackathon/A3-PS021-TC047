@@ -1,0 +1,9 @@
+{
+  "scenario": "retry arrives while recovery is in progress",
+  "starting_state": "A recovering an unfinished task",
+  "injected_failure": "overlapping retry and recovery",
+  "retry_behaviour": "single claimed send; later attempt is skipped",
+  "final_state": "COMPLETED",
+  "identity_preserved": true,
+  "duplicate_prevented": true
+}

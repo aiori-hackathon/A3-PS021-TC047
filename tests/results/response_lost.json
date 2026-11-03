@@ -1,0 +1,9 @@
+{
+  "scenario": "work completes but response is lost",
+  "starting_state": "task sent to B",
+  "injected_failure": "B drops response after execution",
+  "retry_behaviour": "retry receives stored result with duplicate=true",
+  "final_state": "COMPLETED",
+  "identity_preserved": true,
+  "duplicate_prevented": true
+}

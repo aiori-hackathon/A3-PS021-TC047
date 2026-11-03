@@ -1,0 +1,9 @@
+{
+  "scenario": "B restarts after completion",
+  "starting_state": "task completed",
+  "injected_failure": "B restarts before A resends",
+  "retry_behaviour": "same request is deduplicated and stored result returned",
+  "final_state": "COMPLETED",
+  "identity_preserved": true,
+  "duplicate_prevented": true
+}
