@@ -1,9 +1,12 @@
 .env
+.env.*
 target/
 __pycache__/
 .venv/
 HELP.md
 .mvn/wrapper/maven-wrapper.jar
+**/application-local.properties
+**/application-secrets.properties
 
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -18,11 +21,18 @@ HELP.md
 .springBeans
 .sts4-cache
 
+# Java/Maven
+**/target/
+*.class
+*.log
+
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+.vscode/
 
 ### NetBeans ###
 /nbproject/private/
@@ -37,3 +47,14 @@ build/
 ### VS Code ###
 .vscode/
 .github/
+
+# Python
+**/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
