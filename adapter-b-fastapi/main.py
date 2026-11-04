@@ -1,5 +1,6 @@
 from contextlib import asynccontextmanager
 from collections.abc import AsyncIterator
+from fastapi import Header
 
 import os
 
@@ -33,10 +34,12 @@ def read_root():
 def health_check():
     return {"status": "healthy"}
 
+
+
 @app.post("/v1/requests", response_model=ResponseModel)
-def handle_request(request: RequestModel, http_request: Request):
+def handle_request(request: RequestModel, x_fault: str | None = Header(default=None)):
     fault = parse_fault(
-        http_request.headers.get(FAULT_HEADER),
+        x_fault,
         os.environ.get("FAULT_INJECTION", "").lower() == "true",
     )
     try:
