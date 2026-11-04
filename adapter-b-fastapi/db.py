@@ -5,14 +5,20 @@ import logging
 import os
 from pathlib import Path
 from typing import Iterator
+from dotenv import load_dotenv
 
 from psycopg import Connection
 from psycopg_pool import ConnectionPool
+
+load_dotenv(Path(__file__).parent / ".env")
 
 LOGGER = logging.getLogger(__name__)
 SCHEMA_PATH = Path(__file__).parent / "sql" / "schema.sql"
 
 _pool: ConnectionPool[Connection] | None = None
+
+FAULT_INJECTION = os.environ.get("FAULT_INJECTION", "false").lower() == "true"
+STALE_CLAIM_SECONDS = float(os.environ.get("STALE_CLAIM_SECONDS", "10"))
 
 
 def _database_url() -> str:
